@@ -130,4 +130,3 @@ str += '</tr>';
 
 });
 str += '</tbody>';
-window.document.getElementById("sundayContainer").innerHTML = str;
