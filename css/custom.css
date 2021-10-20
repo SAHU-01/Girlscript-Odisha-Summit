@@ -290,12 +290,12 @@ span{
   
   .list {
     font-size: calc(0.125rem * var(--smaller));
-    padding:0.5em;
+    padding:0.1em;
   }
   
  .list span {
-    font-size: calc(2.375rem * var(--smaller));
-    font-size:medium ;
+    /* font-size: calc(2.375rem * var(--smaller)); */
+    font-size:15px ;
   }
 }
 
