@@ -264,6 +264,41 @@ header, section {
 	z-index:10000
 }
 
+
+/* -------Timer-------- */
+.list {
+  color:#F0B036;
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.list span {
+  
+  display: block;
+  font-size: 2.5rem;
+}
+span{
+  color:white;
+}
+@media all and (max-width: 768px) {
+  /* h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  } */
+  
+  .list {
+    font-size: calc(0.125rem * var(--smaller));
+    padding:0.1em;
+  }
+  
+ .list span {
+    /* font-size: calc(2.375rem * var(--smaller)); */
+    font-size:15px ;
+  }
+}
+
 /* ---- Mobile only styling ---- */
 @media (max-width: 991.98px) {
 	.navbar-toggler {
@@ -316,18 +351,18 @@ header, section {
 
   #mainNav .navbar-toggler {
     color: #F0B036;
-    border: 2px solid #ccc;
-    border-radius: 30px;
+    /* border: 2px solid #ccc; */
+    /* border-radius: 30px; */
   }
   
   #mainNav .navbar-toggler:hover, #mainNav .navbar-toggler:focus {
     color: #F0B036;
-    border-color: #F0B036;
+    /* border-color: #F0B036; */
   }
 
   #mainNav .navbar-toggler:active {
     color: #A07524;
-    border-color: #A07524;
+    /* border-color: #A07524; */
   }
 
   #mainNav.navbar-shrink .nav-link {
@@ -393,10 +428,14 @@ header, section {
 }
 
 .title-icon {
-  width: 64px;
+  width: 200px;
   height: 64px;
-  background: url("../img/icon.png");
-  background-size: 64px 64px;
+  background: url("../img/logo1.png");
+  background-size: cover;
+ 
+ 
+ 
+  background-size: 200px 64px;
 }
 
 .hidden-anchor {
@@ -654,7 +693,7 @@ p {
 }
 
 .sponsor-tier {
-  color: #;
+  /* color: #; */
 }
 
 .sponsor-img-container {
