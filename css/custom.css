@@ -264,6 +264,39 @@ header, section {
 	z-index:10000
 }
 
+
+/* -------Timer-------- */
+.list {
+  color:#F0B036;
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.list span {
+  
+  display: block;
+  font-size: 2.5rem;
+}
+span{
+  color:white;
+}
+@media all and (max-width: 768px) {
+  /* h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  } */
+  
+  .list {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+ .list span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+
 /* ---- Mobile only styling ---- */
 @media (max-width: 991.98px) {
 	.navbar-toggler {
@@ -654,7 +687,7 @@ p {
 }
 
 .sponsor-tier {
-  color: #;
+  /* color: #; */
 }
 
 .sponsor-img-container {
